@@ -1,0 +1,28 @@
+{
+    "name": "contactbook-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js",
+        "debug": "node inspect server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tranhuloc/B2012226_THLOC_BACKEND1.git"
+    },
+    "author": "b2012226",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tranhuloc/B2012226_THLOC_BACKEND1/issues"
+    },
+    "homepage": "https://github.com/tranhuloc/B2012226_THLOC_BACKEND1#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "mongodb": "^6.1.0",
+        "nodemon": "^3.0.1"
+    }
+}
